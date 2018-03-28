@@ -1,0 +1,29 @@
+{
+  "name": "train-oss-client-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.7.2",
+    "path": "^0.12.7",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "@jwmb/cmcontent": ">=0.0.1",
+    "@jwmb/drawing_pixi": ">=0.0.13",
+    "@jwmb/geometry": ">=0.0.3",
+    "@jwmb/pixelmagic": ">=0.0.1",
+    "@jwmb/problemsource": ">=0.0.1",
+    "@jwmb/signal": ">=0.0.3"
+  }
+}
